@@ -1,20 +1,20 @@
-/* global */
+/*---------------------------- global------------------------------------ */
 :root {
-  /* background colors */
+  /* ========== background colors ===========*/
   --main-background-color: #ffffff;
   --accent-background-color: #f5f4fa;
   --header-color: #212121;
   --footer-bcg-color: #2f303a;
-  /* text colors */
+  /* ============= text colors ============== */
   --main-text-color: #757575;
   --portfolio-bcg-color: #eeeeee;
   --logo-main-color: #000000;
   --footer-contacts-color: rgba(225, 225, 225, 0.6);
   --text-and-button-accent: #2196f3;
-  /* decorative elements colors */
+  /* ========== decorative elements colors ========== */
   --header-line-color: #ececec;
   --portfolio-border: #eeeeee;
-  /* text settings */
+  /* ========= text settings ======================== */
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 }
@@ -81,9 +81,9 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* global end*/
+/* -------------------------- global end -------------------------------*/
 
-/* header */
+/* -------------------------- header -----------------------------------*/
 .header {
   border-bottom: 1px solid var(--header-line-color);
 }
@@ -165,7 +165,7 @@ button {
   margin-right: 10px;
 }
 
-/* footer */
+/* -------------------------- footer --------------------------------- */
 .footer {
   background-color: var(--footer-bcg-color);
   padding: 60px 0;
@@ -196,12 +196,20 @@ button {
   color: var(--text-and-button-accent);
 }
 
-/* main */
-/* hero */
+/* ---------------------------------- main ---------------------------*/
+/* ---------------------------------- hero ---------------------------*/
 .hero {
-  background-color: var(--footer-bcg-color);
+  max-width: 1600px;
+  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--footer-bcg-color);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero-bcg.jpg');
+  background-size: contain;
+
   text-align: center;
 }
 
@@ -237,7 +245,7 @@ button {
   cursor: pointer;
 }
 
-/* Переваги компанії */
+/* --------------------------- Переваги компанії ------------------------*/
 .benefits,
 .activities {
   background-color: var(--main-background-color);
@@ -265,7 +273,7 @@ button {
   line-height: 1.71;
 }
 
-/* Чим ми займаємося */
+/*----------------------- Чим ми займаємося ---------------------------*/
 .activities {
   padding-top: 0;
 }
@@ -285,7 +293,7 @@ button {
   gap: 30px;
 }
 
-/* Наша команда */
+/*----------------------------------- Наша команда ----------------------- */
 .team {
   background-color: var(--accent-background-color);
 }
@@ -323,7 +331,7 @@ button {
   line-height: 1.19;
 }
 
-/* portfolio */
+/* ------------------------------ portfolio -----------------------------*/
 .portfolio {
   background-color: var(--main-background-color);
 }
