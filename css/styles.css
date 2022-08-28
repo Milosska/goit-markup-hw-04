@@ -139,6 +139,7 @@ button {
 }
 .contact-list {
   display: flex;
+  align-items: baseline;
   margin-left: auto;
 }
 .contact-item:first-child {
@@ -146,6 +147,19 @@ button {
 }
 .contact-link {
   color: var(--main-text-color);
+}
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+}
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+}
+.icon-envelope,
+.icon-smartphone {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* footer */
