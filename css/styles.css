@@ -139,13 +139,16 @@ button {
 }
 .contact-list {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin-left: auto;
 }
 .contact-item:first-child {
   margin-right: 50px;
 }
 .contact-link {
+  display: flex;
+  align-items: center;
+
   color: var(--main-text-color);
 }
 .icon-envelope {
