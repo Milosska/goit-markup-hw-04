@@ -176,7 +176,9 @@ button {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 70px;
+}
+.addres-wrap {
+  margin-right: 70px;
 }
 .footer-logo {
   display: inline-block;
@@ -250,7 +252,8 @@ button {
   background-color: var(--footer-bcg-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/hero-bcg.jpg');
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   text-align: center;
 }
@@ -405,7 +408,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 .social-link {
   background-color: var(--main-background-color);
@@ -493,8 +496,9 @@ button {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.works-item:hover,
-.works-item:focus {
+.works-link:hover,
+.works-link:focus {
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
